@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+$font-text: 'Open Sans', sans-serif;
+$button: #0397E5;
+$progress: linear-gradient(to right, #1953A5, #0397E5);
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-text;
+
+    .container {
+        border-style: solid;
+        border-width: 3px;
+        border-image: linear-gradient(70.65deg, #3973CB -2.29%, #65C9E9 89.68%) 1;
+        border-radius: 15px;
+        margin: 5rem;
+        padding: 0 3rem;
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .close-border {
+            position: absolute;
+            top: 150px;
+            right: 105px;
+            border: 1px solid #D6DEEB;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            #close-btn {
+                
+                text-align: center;
+                color: #D6DEEB;
+                font-size: 15px;
+                
+            }
+        }
+        .upper-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            #question {
+                .border {
+                    border: 1px solid #D6DEEB;
+                    border-radius: 28px;
+                    padding: 0 5px;
+                    width: 150px;
+                    height: 40px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        font-size: 15px;
+                        text-transform: uppercase;
+                        color: #D6DEEB;
+                    }
+                }
+                h2 {
+                    color: #263348;
+                    margin-right: 2rem;
+                    width: 260px;
+                }
+            }
+
+            #ratings {
+                display: inline-flex;
+                justify-content: center;
+                margin-bottom: 2rem;
+
+                .emoticon {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}

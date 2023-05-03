@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+body .container {
+  border-style: solid;
+  border-width: 3px;
+  -o-border-image: linear-gradient(70.65deg, #3973CB -2.29%, #65C9E9 89.68%) 1;
+     border-image: linear-gradient(70.65deg, #3973CB -2.29%, #65C9E9 89.68%) 1;
+  border-radius: 15px;
+  margin: 5rem;
+  padding: 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .close-border {
+  position: absolute;
+  top: 150px;
+  right: 105px;
+  border: 1px solid #D6DEEB;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .close-border #close-btn {
+  text-align: center;
+  color: #D6DEEB;
+  font-size: 15px;
+}
+
+body .container .upper-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .upper-content #question .border {
+  border: 1px solid #D6DEEB;
+  border-radius: 28px;
+  padding: 0 5px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .upper-content #question .border p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #D6DEEB;
+}
+
+body .container .upper-content #question h2 {
+  color: #263348;
+  margin-right: 2rem;
+  width: 260px;
+}
+
+body .container .upper-content #ratings {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+body .container .upper-content #ratings .emoticon {
+  font-size: 45px;
+}
+/*# sourceMappingURL=style.css.map */
